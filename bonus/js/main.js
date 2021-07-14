@@ -12,7 +12,7 @@ user_last_name = prompt("Inserisci il tuo cognome");
 user_color = prompt("Inserisci il tuo colore preferito");
 
 // Concateno gli input per avere la pass
-user_pass = user_name + user_last_name + user_color + "21";
+user_pass = user_name + user_last_name + user_color;
 
 // Stampo il risultato nell'elemento che ha id #pass
 document.getElementById("pass").innerHTML = user_pass;
